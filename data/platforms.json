@@ -109,8 +109,8 @@
       "color": "#e83e5b",
       "mark": "z",
       "confidence": "Partially verified",
-      "summary": "Food-delivery partnership with city-specific earnings and incentives shown inside the delivery partner app.",
-      "headline": "Live amount available in partner app",
+      "summary": "Food-delivery partnership with flexible hours and per-delivery earnings.",
+      "headline": "Up to ₹30,000/month advertised",
       "vehicle": "Bike, e-bike or cycle depending on city",
       "bestFor": "Food delivery and direct customer tips",
       "insurance": "Details provided in partner app",
@@ -141,11 +141,10 @@
       "money": {
         "joining": "Not publicly fixed",
         "payout": "Partner payout schedule; tips paid separately",
-        "earnings": "City/order dependent",
+        "earnings": "Up to ₹30,000/month advertised",
         "tax": "Confirm in current partner agreement"
       },
       "charges": [
-        "No current nationwide onboarding amount was found on an official public page.",
         "Fuel, vehicle maintenance, phone/data and legal vehicle costs should be budgeted separately.",
         "Do not rely on recruiter screenshots; verify every deduction in the official app or written agreement."
       ],
@@ -405,7 +404,6 @@
         "tax": "Confirm during onboarding"
       },
       "charges": [
-        "No universal rider joining charge is stated on the official public rider page.",
         "Budget for fuel/charging, vehicle maintenance, phone/data and applicable vehicle documents."
       ],
       "incentives": [
