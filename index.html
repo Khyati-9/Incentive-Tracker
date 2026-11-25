@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Incentive Atlas — Delivery platform dashboard</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <aside class="sidebar">
+        <div class="brand"><span class="brand-mark">✦</span><span>Incentive<br /><b>Atlas</b></span></div>
+        <div class="side-label">Workspace</div>
+        <nav>
+          <a class="active" href="#overview"><span>⌂</span> Overview</a>
+          <a href="compare.html"><span>⇄</span> Compare platforms</a>
+        </nav>
+        <div class="sidebar-note"><span class="live-dot"></span><div><b>Market pulse</b><small>Updated today · Demo data</small></div></div>
+      </aside>
+
+      <main class="main-content">
+        <header class="topbar">
+          <div><p class="eyebrow">DELIVERY PARTNER INTELLIGENCE</p><h1>Incentive dashboard</h1></div>
+          <div class="top-actions"><button class="ghost-btn">⌕ Search</button><button class="profile">KS</button></div>
+        </header>
+        <div class="live-bar"><span class="live-dot"></span><b>Public data refreshed</b><span id="feed-status">Official public pages · checking now</span><button id="refresh-feed">↻ Refresh data</button></div>
+
+       
+
+        <section class="stats-row">
+          <div class="stat-card"><div class="stat-icon purple">◈</div><div><span>Platforms tracked</span><strong>10</strong><small>Across food & quick commerce</small></div></div>
+          <div class="stat-card"><div class="stat-icon orange"></div><div><span>Best joining bonus</span><strong>₹2,500</strong><small>Subject to city & criteria</small></div></div>
+          <div class="stat-card"><div class="stat-icon green">₹</div><div><span>Avg. per delivery</span><strong>₹48–72</strong><small>Before fuel & deductions</small></div></div>
+        </section>
+
+        <section class="section-head" id="platforms"><div><p class="eyebrow">THE LINEUP</p><h3>Platform snapshot</h3></div><div class="filter-group"><button class="filter active" data-filter="all">All</button><button class="filter" data-filter="food">Food delivery</button><button class="filter" data-filter="quick">Quick commerce</button></div></section>
+        <section class="platform-grid">
+          <article class="platform-card" data-type="food"><div class="platform-top"><div class="platform-brand swiggy-bg"><span>S</span></div><span class="status">High volume</span></div><h4>Swiggy</h4><p>Food delivery · India</p><div class="platform-numbers"><div><small>Joining</small><b>~₹1,500</b></div><div><small>Benefits</small><b>₹12L insurance</b></div><div><small>Payout</small><b>Weekly</b></div></div><button class="text-btn" onclick="openModal('Swiggy')">View details </button></article>
+          <article class="platform-card featured" data-type="food"><div class="platform-top"><div class="platform-brand zomato-bg"><span>z</span></div><span class="status warm">Top pick</span></div><h4>Zomato</h4><p>Food delivery · India</p><div class="platform-numbers"><div><small>Joining</small><b>₹2,000</b></div><div><small>Per order</small><b>₹50–80</b></div><div><small>Peak bonus</small><b>Up to ₹250</b></div></div><button class="text-btn" onclick="openModal('Zomato')">View details </button></article>
+          <article class="platform-card" data-type="quick"><div class="platform-top"><div class="platform-brand blinkit-bg"><span>B</span></div><span class="status blue">Fast growth</span></div><h4>Blinkit</h4><p>Quick commerce · India</p><div class="platform-numbers"><div><small>Joining</small><b>Up to ₹4,000</b></div><div><small>Benefits</small><b>₹10L insurance</b></div><div><small>Payout</small><b>Every 7 days</b></div></div><button class="text-btn" onclick="openModal('Blinkit')">View details </button></article>
+          <article class="platform-card" data-type="quick"><div class="platform-top"><div class="platform-brand zepto-bg"><span>Z</span></div><span class="status purple-pill">New partner</span></div><h4>Zepto</h4><p>Quick commerce · India</p><div class="platform-numbers"><div><small>Joining</small><b>₹2,500</b></div><div><small>Per order</small><b>₹30–55</b></div><div><small>Peak bonus</small><b>Up to ₹220</b></div></div><button class="text-btn" onclick="openModal('Zepto')">View details </button></article>
+          <article class="platform-card" data-type="quick"><div class="platform-top"><div class="platform-brand flipkart-bg"><span>F</span></div><span class="status blue">Expanding</span></div><h4>Flipkart Minutes</h4><p>Quick commerce · India</p><div class="platform-numbers"><div><small>Joining</small><b>₹1,000</b></div><div><small>Per order</small><b>₹25–50</b></div><div><small>Peak bonus</small><b>Up to ₹180</b></div></div><button class="text-btn" onclick="openModal('Flipkart Minutes')">View details </button></article>
+          <article class="platform-card" data-type="quick"><div class="platform-top"><div class="platform-brand bigbasket-bg"><span>bb</span></div><span class="status">Steady volume</span></div><h4>BigBasket</h4><p>Grocery delivery · India</p><div class="platform-numbers"><div><small>Joining</small><b>₹1,500</b></div><div><small>Per order</small><b>₹30–60</b></div><div><small>Peak bonus</small><b>Up to ₹200</b></div></div><button class="text-btn" onclick="openModal('BigBasket')">View details </button></article>
+          <article class="platform-card" data-type="quick"><div class="platform-top"><div class="platform-brand instamart-bg"><span>i</span></div><span class="status warm">High demand</span></div><h4>Swiggy Instamart</h4><p>Quick commerce · India</p><div class="platform-numbers"><div><small>Joining</small><b>₹2,000</b></div><div><small>Per order</small><b>₹30–60</b></div><div><small>Peak bonus</small><b>Up to ₹220</b></div></div><button class="text-btn" onclick="openModal('Swiggy Instamart')">View details </button></article>
+          <article class="platform-card" data-type="quick"><div class="platform-top"><div class="platform-brand amazon-bg"><span>a</span></div><span class="status blue">Block delivery</span></div><h4>Amazon Flex / Now</h4><p>Amazon, Fresh & Now · India</p><div class="platform-numbers"><div><small>Joining</small><b>No public fee</b></div><div><small>Offer model</small><b>Per block</b></div><div><small>Payment</small><b>Next selected day</b></div></div><button class="text-btn" onclick="openModal('Amazon Flex / Amazon Now')">View details <span>↗</span></button></article>
+          <article class="platform-card" data-type="quick"><div class="platform-top"><div class="platform-brand jiomart-bg"><span>J</span></div><span class="status">Grocery</span></div><h4>JioMart</h4><p>Grocery delivery · India</p><div class="platform-numbers"><div><small>Joining</small><b>—</b></div><div><small>Per order</small><b>—</b></div><div><small>Peak bonus</small><b>—</b></div></div><button class="text-btn" onclick="openModal('JioMart')">View details </button></article>
+          <article class="platform-card" data-type="quick"><div class="platform-top"><div class="platform-brand rapido-bg"><span>R</span></div><span class="status warm">Hyperlocal</span></div><h4>Rapido Parcel</h4><p>Local delivery · India</p><div class="platform-numbers"><div><small>Joining</small><b>₹1,500</b></div><div><small>Per order</small><b>₹35–65</b></div><div><small>Peak bonus</small><b>Up to ₹180</b></div></div><button class="text-btn" onclick="openModal('Rapido Parcel')">View details </button></article>
+        </section>
+
+        <section class="lower-grid">
+          <div class="panel" id="incentives"><div class="panel-head"><div><p class="eyebrow">EARN MORE</p><h3>Incentive tracker</h3></div><span class="date-chip">This week ▾</span></div><div class="progress-row"><div class="progress-label"><span>Weekly delivery target</span><b>64 / 80</b></div><div class="progress"><i style="width:80%"></i></div><small>16 more deliveries to unlock ₹750 bonus</small></div><div class="incentive-list"><div><span class="list-icon green">✓</span><div><b>Peak hour boost</b><small>12:00–2:00 PM · +₹20/order</small></div><strong>Active</strong></div><div><span class="list-icon orange">★</span><div><b>Streak reward</b><small>Complete 5 orders in a row</small></div><strong class="muted">₹150</strong></div><div><span class="list-icon purple">↗</span><div><b>Rain bonus</b><small>Automatically applied when active</small></div><strong class="muted">Variable</strong></div></div></div>
+          <div class="panel" id="charges"><div class="panel-head"><div><p class="eyebrow">THE FINE PRINT</p><h3>Benefits & charges</h3></div><button class="dots">•••</button></div><div class="charge-table"><div class="table-row table-title"><span>Item</span><span>Typical amount</span></div><div class="table-row"><span><b>Platform commission</b><small>Deducted from earnings</small></span><strong class="negative">− 0–5%</strong></div><div class="table-row"><span><b>Cash handling fee</b><small>For COD orders</small></span><strong class="negative">− ₹5–10</strong></div><div class="table-row"><span><b>Accident insurance</b><small>Coverage while active</small></span><strong class="positive">Included</strong></div><div class="table-row"><span><b>Weekly payout</b><small>Direct to bank account</small></span><strong class="positive">Free</strong></div></div></div>
+        </section>
+        <footer><span>Incentive Atlas <b>·</b> Partner earnings overview</span><span>Official source links are shown in the live feed. Verify city-level terms in each partner app.</span></footer>
+      </main>
+    </div>
+    <div class="modal-backdrop" id="modal" onclick="closeModal(event)"><div class="modal"><button class="modal-close" onclick="closeModal()">×</button><div class="modal-logo" id="modalLogo">S</div><p class="eyebrow">PLATFORM DETAILS</p><h2 id="modalTitle">Swiggy</h2><p id="modalCopy">Joining bonuses and earnings vary by city, slot, vehicle type, and current campaign. Use this panel as a quick comparison guide.</p><div class="modal-facts"><span><small>Joining bonus</small><b id="modalBonus">₹1,250</b></span><span><small>Earnings</small><b id="modalEarning">See app</b></span><span><small>Payout</small><b id="modalPayout">Weekly</b></span></div><div class="modal-extra"><p><b>Benefits:</b> <span id="modalBenefit">Partner benefits vary by campaign.</span></p><p><b>Charges:</b> <span id="modalFee">Check the partner agreement.</span></p></div><a id="modalSource" class="source-link" href="#" target="_blank" rel="noreferrer">Open official source ↗</a><button class="primary-btn" onclick="closeModal()">Got it</button></div></div>
+    <script src="app.js?v=5"></script>
+  </body>
+</html>

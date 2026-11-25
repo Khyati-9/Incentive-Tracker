@@ -1,0 +1,97 @@
+{
+  "updatedAt": "2026-11-23T04:54:37.261Z",
+  "successfulSources": 3,
+  "totalSources": 5,
+  "checks": [
+    {
+      "id": "swiggy",
+      "platform": "Swiggy",
+      "url": "https://ride.swiggy.com/",
+      "checkedAt": "2026-11-23T04:54:37.261Z",
+      "ok": true,
+      "matched": [],
+      "error": null,
+      "httpStatus": 200,
+      "contentLength": 17675,
+      "matchCount": 0
+    },
+    {
+      "id": "blinkit",
+      "platform": "Blinkit",
+      "url": "https://blinkit.com/pages/delivery",
+      "checkedAt": "2026-11-23T04:54:37.261Z",
+      "ok": false,
+      "matched": [],
+      "error": "HTTP 403",
+      "httpStatus": 403,
+      "contentLength": 564331
+    },
+    {
+      "id": "amazon-flex",
+      "platform": "Amazon Flex / Amazon Now",
+      "url": "https://flex.amazon.in/",
+      "checkedAt": "2026-11-23T04:54:37.261Z",
+      "ok": true,
+      "matched": [
+        {
+          "field": "headline",
+          "value": "Up to ₹140/hour advertised; actual varies"
+        }
+      ],
+      "error": null,
+      "httpStatus": 200,
+      "contentLength": 135306,
+      "matchCount": 1
+    },
+    {
+      "id": "bigbasket",
+      "platform": "BigBasket",
+      "url": "https://riders.bigbasket.com/?nc=MoreInformation",
+      "checkedAt": "2026-11-23T04:54:37.261Z",
+      "ok": true,
+      "matched": [
+        {
+          "field": "headline",
+          "value": "Up to ₹50,000/month advertised"
+        },
+        {
+          "field": "referral",
+          "value": "Referral bonus up to ₹5,000"
+        },
+        {
+          "field": "insurance",
+          "value": "Health insurance up to ₹1 lakh"
+        }
+      ],
+      "error": null,
+      "httpStatus": 200,
+      "contentLength": 38007,
+      "matchCount": 3
+    },
+    {
+      "id": "rapido",
+      "platform": "Rapido Parcel",
+      "url": "https://www.rapido.bike/become-a-captain",
+      "checkedAt": "2026-11-23T04:54:37.261Z",
+      "ok": true,
+      "matched": [
+        {
+          "field": "joining",
+          "value": "Free"
+        },
+        {
+          "field": "headline",
+          "value": "Up to ₹150/hour advertised"
+        },
+        {
+          "field": "payout",
+          "value": "Captain wallet; redeem to bank"
+        }
+      ],
+      "error": null,
+      "httpStatus": 200,
+      "contentLength": 151854,
+      "matchCount": 3
+    }
+  ]
+}

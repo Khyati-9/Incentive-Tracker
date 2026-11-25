@@ -1,0 +1,879 @@
+{
+  "updatedAt": "2026-11-23T04:54:37.261Z",
+  "refreshMode": "automated-official-public-source-review",
+  "notice": "Public information changes by city, shift, vehicle, demand and campaign. Amounts marked variable must be confirmed in the official partner app before payment or onboarding.",
+  "platforms": [
+    {
+      "name": "Swiggy",
+      "offerResearch": {
+        "kit": "Bag and T-shirt confirmed. Swiggy describes subsidised gear. A separate ₹100 shirt price is unverified.",
+        "ref": "Referral rewards confirmed in the rider app listing; amount unpublished.",
+        "url": "https://play.google.com/store/apps/details?id=in.swiggy.deliveryapp"
+      },
+      "type": "Food delivery",
+      "color": "#fc7a3b",
+      "mark": "S",
+      "confidence": "Officially verified",
+      "summary": "Order-based food delivery with flexible shifts and weekly bank payouts.",
+      "headline": "Up to ₹30,000/month advertised",
+      "vehicle": "Bike, e-bike or cycle",
+      "bestFor": "Flexible food delivery",
+      "insurance": "Up to ₹10 lakh accident death/disability plus other cover",
+      "referral": {
+        "status": "Not publicly fixed",
+        "amount": "Not publicly published",
+        "condition": "Check the active rider-app referral offer",
+        "tracking": "Track invited rider, registration, required deliveries and expiry in the app"
+      },
+      "tracking": {
+        "available": "Rider app",
+        "signals": [
+          "orders completed",
+          "eligible earnings",
+          "peak hours",
+          "rejections",
+          "incentive unlocked",
+          "payout credited"
+        ]
+      },
+      "bonus": {
+        "advertised": "No fixed national joining bonus published",
+        "orderTarget": "Shown in rider app if offered",
+        "deadline": "Shown with the campaign",
+        "paymentWhen": "Campaign-specific",
+        "firstOrders": "Onboarding fee is deducted in instalments after joining; exact instalments vary by city",
+        "whatToSave": "Screenshot the offer, target, deadline and completed-order counter before starting"
+      },
+      "money": {
+        "joining": "Around ₹1,500 onboarding fee",
+        "payout": "Weekly to bank account",
+        "earnings": "Up to ₹30,000/month advertised",
+        "tax": "Applicable taxes/deductions shown in partner app"
+      },
+      "charges": [
+        "Onboarding fee is around ₹1,500 and varies by city.",
+        "Fee is deducted in multiple instalments after onboarding.",
+        "Swiggy confirms that riders receive a bag and T-shirt during onboarding. Its 2024 filing describes subsidised gear, including reflective T-shirts, raincoats, jackets, bags and helmets. A separate ₹100 T-shirt charge could not be verified. Check your itemised kit price and whether it is included in your onboarding fee.",
+        "Fuel, vehicle rent/EMI, maintenance, mobile data and statutory vehicle costs remain the partner’s operating expenses."
+      ],
+      "incentives": [
+        "Order-based payout plus retention and performance incentives.",
+        "Exact targets and incremental payouts are campaign-specific and shown in the rider app.",
+        "Swiggy states that it does not reward faster driving or penalise partners for late delivery."
+      ],
+      "benefits": [
+        "Accidental hospitalisation cover: ₹2 lakh.",
+        "Accidental death/disability cover: ₹10 lakh.",
+        "Accidental OPD: ₹10,000; loss-of-pay support up to 3 months; ambulance service.",
+        "Higher-engagement partners may receive enhanced hospitalisation, dependent, maternity and mobile cover."
+      ],
+      "documents": [
+        "Aadhaar or Voter ID",
+        "PAN card",
+        "Driving licence (not required for cycle)",
+        "Bank details"
+      ],
+      "tips": [
+        "Work in a compact, familiar zone to reduce unpaid return distance.",
+        "Compare the app’s incentive target with the fuel and time needed before committing to it.",
+        "Use peak-demand slots only when the displayed incremental payout makes the extra waiting time worthwhile.",
+        "Never pay an agent; apply through the official Swiggy rider channel."
+      ],
+      "sources": [
+        {
+          "label": "Official rider page",
+          "url": "https://ride.swiggy.com/"
+        },
+        {
+          "label": "Swiggy 2024 filing — delivery partner gear",
+          "url": "https://www.swiggy.com/corporate/wp-content/uploads/2024/10/Swiggy-Limited-UDRHP-I-Filing-Version-v2-September-26-2024.pdf"
+        },
+        {
+          "label": "Official insurance explainer",
+          "url": "https://blog.swiggy.com/press-release/how-delivery-partner-insurance-works-at-swiggy/"
+        },
+        {
+          "label": "2025 AGM transcript",
+          "url": "https://www.swiggy.com/corporate/wp-content/uploads/2025/11/SwiggyAGM-Aug21-2025-Transcript.pdf"
+        }
+      ]
+    },
+    {
+      "name": "Zomato",
+      "offerResearch": {
+        "kit": "The rider FAQ confirms a city-dependent onboarding fee for training and support. No itemised kit price shown.",
+        "ref": "Referral confirmed. The rider FAQ says bonuses vary by city; no city schedule is given. Weekly regular earnings are separate from referral credit.",
+        "url": "https://zomato.runnr.in/runnr-app/faq"
+      },
+      "type": "Food delivery",
+      "color": "#e83e5b",
+      "mark": "z",
+      "confidence": "Partially verified",
+      "summary": "Food-delivery partnership with city-specific earnings and incentives shown inside the delivery partner app.",
+      "headline": "Live amount available in partner app",
+      "vehicle": "Bike, e-bike or cycle depending on city",
+      "bestFor": "Food delivery and direct customer tips",
+      "insurance": "Details provided in partner app",
+      "referral": {
+        "status": "Not publicly fixed",
+        "amount": "Not publicly published",
+        "condition": "Check the active delivery-partner app offer",
+        "tracking": "Save the referral campaign screen and verify both riders’ status"
+      },
+      "tracking": {
+        "available": "Partner app",
+        "signals": [
+          "orders completed",
+          "tips",
+          "eligible earnings",
+          "payout status",
+          "campaign progress"
+        ]
+      },
+      "bonus": {
+        "advertised": "No current national joining bonus publicly fixed",
+        "orderTarget": "Only the active in-app offer is valid",
+        "deadline": "Shown in partner app",
+        "paymentWhen": "Shown in offer terms",
+        "firstOrders": "No verified national first-order commission schedule was found",
+        "whatToSave": "Save the offer screen and weekly earning statement"
+      },
+      "money": {
+        "joining": "Not publicly fixed",
+        "payout": "Partner payout schedule; tips paid separately",
+        "earnings": "City/order dependent",
+        "tax": "Confirm in current partner agreement"
+      },
+      "charges": [
+        "No current nationwide onboarding amount was found on an official public page.",
+        "Fuel, vehicle maintenance, phone/data and legal vehicle costs should be budgeted separately.",
+        "Do not rely on recruiter screenshots; verify every deduction in the official app or written agreement."
+      ],
+      "incentives": [
+        "Long-distance and fuel-price variables have historically been part of partner compensation.",
+        "Current quest, peak, rain and attendance rewards are location/campaign specific and not publicly fixed."
+      ],
+      "benefits": [
+        "Official well-being framework covers earnings, tips, health and safety, financial inclusion, assets and professional growth.",
+        "Insurance and healthcare details are provided in the delivery partner app.",
+        "100% of customer tips are transferred; Zomato says it absorbs payment gateway charges."
+      ],
+      "documents": [
+        "Identity proof",
+        "PAN and bank information",
+        "Driving licence and vehicle papers where applicable",
+        "Confirm latest list in the official partner app"
+      ],
+      "tips": [
+        "Treat customer tips as upside, not guaranteed base income.",
+        "Check long-distance compensation against the return trip before accepting.",
+        "Use the in-app payout breakdown to reconcile every order and raise discrepancies promptly.",
+        "Apply only through Zomato’s official delivery partner channel."
+      ],
+      "sources": [
+        {
+          "label": "Official tips explainer",
+          "url": "https://www.zomato.com/blog/tips-at-zomato/"
+        },
+        {
+          "label": "Partner well-being framework",
+          "url": "https://www.zomato.com/blog/delivery-partner-well-being-introducing-a-framework-to-guide-our-efforts/"
+        },
+        {
+          "label": "Delivery partner update",
+          "url": "https://www.zomato.com/blog/a-billion-smiles-delivered/"
+        }
+      ]
+    },
+    {
+      "name": "Blinkit",
+      "offerResearch": {
+        "kit": "One-time training and support fee confirmed; details at interview. No separate kit price shown.",
+        "ref": "Up to ₹14,000 advertised. ₹10,000 after one month is unverified.",
+        "url": "https://play.google.com/store/apps/details?id=app.blinkit.onboarding"
+      },
+      "type": "Quick commerce",
+      "color": "#f7c620",
+      "mark": "B",
+      "confidence": "Officially verified",
+      "summary": "Per-packet quick-commerce work with weekly payout and additional weight/distance incentives.",
+      "headline": "Up to ₹50,000/month advertised",
+      "vehicle": "Two-wheeler; confirm local options",
+      "bestFor": "Short-radius quick commerce",
+      "insurance": "Medical insurance advertised up to ₹10 lakh",
+      "referral": {
+        "status": "Advertised maximum; confirm your offer in the rider app",
+        "amount": "Up to ₹14,000 advertised in the partner app listing",
+        "condition": "The public sources confirm a rider referral programme. They do not verify ₹10,000 for one month of work or specify the city, store, order target, active days, deadline or payout date.",
+        "tracking": "Before referring, check the in-app amount, eligible city or store, what starts the qualifying period, required orders or active days, and when each instalment is credited."
+      },
+      "tracking": {
+        "available": "Partner onboarding/app",
+        "signals": [
+          "eligible orders",
+          "joining-bonus progress",
+          "referral status",
+          "weight/distance additions",
+          "weekly payout"
+        ]
+      },
+      "bonus": {
+        "advertised": "Joining bonus up to ₹4,000",
+        "orderTarget": "A required number of completed deliveries; exact count is not published nationally",
+        "deadline": "A specified time window shown during onboarding",
+        "paymentWhen": "After both the delivery target and deadline conditions are satisfied",
+        "firstOrders": "One-time joining fee applies; amount and recovery schedule are shared during onboarding",
+        "whatToSave": "Screenshot the bonus tile before the first delivery and track only completed, eligible orders"
+      },
+      "money": {
+        "joining": "Bonus up to ₹4,000; one-time joining fee applies",
+        "payout": "Every 7 days",
+        "earnings": "Up to ₹50,000/month advertised",
+        "tax": "Confirm deductions at interview/onboarding"
+      },
+      "charges": [
+        "A one-time joining fee applies for training and support; Blinkit does not publish a universal amount.",
+        "Operating costs such as vehicle, fuel/charging, maintenance and mobile data remain important net-income deductions."
+      ],
+      "incentives": [
+        "Joining bonus is earned after completing a specified number of deliveries within a specified time.",
+        "Referral bonus is available under current referral terms.",
+        "Additional incentives can depend on packet weight and distance."
+      ],
+      "benefits": [
+        "Accidental and medical insurance.",
+        "Official page advertises medical insurance up to ₹10 lakh.",
+        "Flexible 4-, 8- or 10-hour work options; weekly payout."
+      ],
+      "documents": [
+        "Identity and address proof",
+        "Bank account information",
+        "Vehicle/licence documents where required",
+        "Background verification and training completion"
+      ],
+      "tips": [
+        "Ask for the exact joining-fee amount and written bonus target before onboarding.",
+        "Track heavy-packet and distance additions order by order.",
+        "Choose a store/slot with enough order density to reduce unpaid waiting.",
+        "Use only Blinkit’s official rider form and onboarding contact."
+      ],
+      "sources": [
+        {
+          "label": "Official Blinkit delivery page",
+          "url": "https://blinkit.com/pages/delivery"
+        },
+        {
+          "label": "Blinkit Delivery Partner app listing — advertised referral maximum",
+          "url": "https://play.google.com/store/apps/details?id=app.blinkit.onboarding"
+        }
+      ]
+    },
+    {
+      "name": "Zepto",
+      "offerResearch": {
+        "kit": "Agreement allows a quality-conservation charge plus applicable tax when deteriorated branded gear requires replacement. No item price stated.",
+        "ref": "Saathi confirms rewards as the referred rider delivers orders; no exact target stated.",
+        "url": "https://saathi.zepto.co.in/"
+      },
+      "type": "Quick commerce",
+      "color": "#9240e5",
+      "mark": "Z",
+      "confidence": "Official agreement verified",
+      "summary": "Weekly service-fee model whose calculation can include distance, time, demand, traffic, weather and rating.",
+      "headline": "Individual payout scheme",
+      "vehicle": "Own compliant vehicle/equipment",
+      "bestFor": "Quick-commerce shifts",
+      "insurance": "No fixed amount in public agreement",
+      "referral": {
+        "status": "Official referral programme confirmed",
+        "amount": "No universal amount published in the reviewed listings",
+        "condition": "Zepto Rider advertises rewards for inviting delivery partners. Zepto Saathi also accepts referrals from non-riders. Check current eligibility, milestones, deadlines and credited amounts in the relevant app.",
+        "tracking": "Zepto Saathi provides personal referral links and QR codes. Save the applicable offer and check your referral status and payout."
+      },
+      "tracking": {
+        "available": "Partner App",
+        "signals": [
+          "logged-in hours",
+          "tasks completed",
+          "service fees",
+          "deductions",
+          "tips",
+          "incentives"
+        ]
+      },
+      "bonus": {
+        "advertised": "No guaranteed national joining bonus in public agreement",
+        "orderTarget": "Current payout scheme controls eligibility",
+        "deadline": "Communicated in partner app/payout scheme",
+        "paymentWhen": "Weekly or other agreed periodic basis",
+        "firstOrders": "Onboarding, training, quality and security-deposit deductions may be taken in one or more tranches",
+        "whatToSave": "Download the payout scheme and record every deduction shown on the first statements"
+      },
+      "money": {
+        "joining": "Variable onboarding/training/quality fees and security deposit",
+        "payout": "Weekly or other agreed periodic basis",
+        "earnings": "Individual, variable service fee",
+        "tax": "Applicable taxes deducted"
+      },
+      "charges": [
+        "Onboarding, training, quality-conservation fees and security deposit may be deducted in tranches.",
+        "Partner supplies required equipment/tools unless otherwise agreed.",
+        "Lost/stolen orders, cash shortfall, unreturned merchandise and some training/background-verification costs can be deducted under the agreement.",
+        "Security deposit is refundable after clearing dues, subject to agreement terms."
+      ],
+      "incentives": [
+        "Payout scheme and incremental fees are communicated from time to time.",
+        "Zepto may offer bikes, gifts or other incentives at its discretion.",
+        "Service fee can use distance, time, demand, traffic, weather and customer rating."
+      ],
+      "benefits": [
+        "Flexible selection from available shifts.",
+        "Task-allocation logic is described as distributing tasks evenly.",
+        "No fixed nationwide insurance amount is stated in the public agreement; verify active cover before joining."
+      ],
+      "documents": [
+        "Adult Indian resident eligibility",
+        "Identity/bank/tax information requested during onboarding",
+        "Vehicle insurance and legally required vehicle documents",
+        "Any vendor-specific documents if sourced through a logistics vendor"
+      ],
+      "tips": [
+        "Read the current payout-scheme annexure before accepting a shift.",
+        "Photograph returned branded merchandise and retain no-dues proof.",
+        "Reconcile cash collections daily to avoid shortfall deductions.",
+        "Evaluate distance, traffic and weather pay against your actual operating cost."
+      ],
+      "sources": [
+        {
+          "label": "Official service agreement",
+          "url": "https://www.zepto.com/s/de-agreement"
+        },
+        {
+          "label": "Zepto Saathi referral programme",
+          "url": "https://play.google.com/store/apps/details?id=com.zepto.saathi"
+        },
+        {
+          "label": "Zepto Delivery Partner app listing",
+          "url": "https://play.google.com/store/apps/details?id=com.zepto.rider"
+        }
+      ]
+    },
+    {
+      "name": "BigBasket",
+      "offerResearch": {
+        "kit": "No itemised kit charge found on the official rider page.",
+        "ref": "Up to ₹5,000 advertised.",
+        "url": "https://riders.bigbasket.com/?nc=MoreInformation"
+      },
+      "type": "Grocery delivery",
+      "color": "#58a935",
+      "mark": "bb",
+      "confidence": "Officially verified",
+      "summary": "Flexible grocery-delivery opportunity with advertised earnings, referral rewards and insurance.",
+      "headline": "Up to ₹50,000/month advertised",
+      "vehicle": "Confirm city/role requirements",
+      "bestFor": "Grocery delivery and referral rewards",
+      "insurance": "Health insurance up to ₹1 lakh",
+      "referral": {
+        "status": "Officially advertised",
+        "amount": "Up to ₹5,000",
+        "condition": "The public page does not state one universal order target or deadline; confirm in rider app",
+        "tracking": "Record referral code, referred rider, eligible target and credit status"
+      },
+      "tracking": {
+        "available": "Rider app/payout records",
+        "signals": [
+          "orders completed",
+          "referral target",
+          "referral credit",
+          "monthly earnings",
+          "insurance eligibility"
+        ]
+      },
+      "bonus": {
+        "advertised": "Referral bonus up to ₹5,000",
+        "orderTarget": "Referral eligibility/target is shown in current rider terms",
+        "deadline": "Not published on public page",
+        "paymentWhen": "Confirm in rider app before referring",
+        "firstOrders": "No public first-order commission schedule found",
+        "whatToSave": "Save the referral code, referred rider ID, target and expiry date"
+      },
+      "money": {
+        "joining": "No public fee amount disclosed",
+        "payout": "Confirm in rider app",
+        "earnings": "Up to ₹50,000/month advertised",
+        "tax": "Confirm during onboarding"
+      },
+      "charges": [
+        "No universal rider joining charge is stated on the official public rider page.",
+        "Budget for fuel/charging, vehicle maintenance, phone/data and applicable vehicle documents."
+      ],
+      "incentives": [
+        "Referral bonus advertised up to ₹5,000.",
+        "Other performance targets are not publicly fixed; confirm in the rider app."
+      ],
+      "benefits": [
+        "Health insurance up to ₹1 lakh.",
+        "Term insurance up to ₹5 lakh.",
+        "Loan and financial support for partner and family.",
+        "Flexible work and advertised start in as little as one hour after verification/training."
+      ],
+      "documents": [
+        "Identity proofs for profile verification",
+        "Bank/payment information",
+        "Vehicle and licence documents where applicable",
+        "Training completion"
+      ],
+      "tips": [
+        "Confirm whether the ₹50,000 figure requires full-time hours or incentive thresholds in your city.",
+        "Use referral rewards only under the current official terms.",
+        "Choose dense delivery areas and track cost per kilometre."
+      ],
+      "sources": [
+        {
+          "label": "Official BigBasket rider page",
+          "url": "https://riders.bigbasket.com/?nc=MoreInformation"
+        }
+      ]
+    },
+    {
+      "name": "Amazon Flex / Amazon Now",
+      "offerResearch": {
+        "kit": "₹0 for a safety vest available at the station. Bring the required helmet and closed shoes; Amazon gives no price for those items.",
+        "ref": "Cash referral for India unverified. Flex Rewards points are a separate programme.",
+        "url": "https://flex.amazon.in/faq"
+      },
+      "type": "Amazon, Fresh and Now delivery",
+      "color": "#263746",
+      "mark": "a",
+      "confidence": "Official Amazon Flex data",
+      "summary": "Amazon Flex is the delivery-partner program. It can include Amazon standard orders, Amazon Fresh, Store Orders and Amazon Now blocks.",
+      "headline": "Up to ₹140/hour advertised; actual varies",
+      "vehicle": "2-wheeler, e-bike or commercial 3-wheeler",
+      "bestFor": "Predictable block offers",
+      "insurance": "Confirm current Flex cover in app",
+      "referral": {
+        "status": "No referral cash amount found; official rewards program exists",
+        "amount": "Rewards points, not a published referral cash amount",
+        "condition": "At least 1 point per delivery and 10 points per completed block; Fair/Great/Fantastic standing changes the multiplier",
+        "tracking": "Flex App → Menu → Your Dashboard → Rewards Details"
+      },
+      "tracking": {
+        "available": "Flex App",
+        "signals": [
+          "blocks completed",
+          "deliveries completed",
+          "standing",
+          "points",
+          "reward level",
+          "reserved offers"
+        ]
+      },
+      "bonus": {
+        "advertised": "No public national joining bonus",
+        "orderTarget": "Not applicable unless a personal offer appears",
+        "deadline": "Offer-specific",
+        "paymentWhen": "Next selected payment day for completed blocks",
+        "firstOrders": "1% withholding tax applies to earnings; no first-block commission was found",
+        "whatToSave": "Screenshot block duration, location and earning range before accepting"
+      },
+      "money": {
+        "joining": "No public joining fee stated",
+        "payout": "As early as next selected payment day",
+        "earnings": "Up to ₹140/hour advertised; actual varies",
+        "tax": "1% withholding tax stated by Amazon"
+      },
+      "charges": [
+        "Amazon states weekly earnings are subject to 1% withholding tax; ₹1,000 becomes ₹990 in its example.",
+        "Use of own vehicle means fuel/charging, maintenance, insurance and data affect net earnings.",
+        "Ending an Amazon Now block early can prorate earnings below the estimated minimum."
+      ],
+      "incentives": [
+        "Offers display block duration and estimated earnings before scheduling.",
+        "Amazon Now shows a minimum and estimated potential range; potential earnings are not guaranteed.",
+        "Blocks are not guaranteed and depend on availability."
+      ],
+      "benefits": [
+        "Flexible scheduling from available blocks.",
+        "Amazon Standard blocks are typically 2–6 hours; Amazon Now blocks are typically 4 hours.",
+        "Payment-day selection can include weekends and holidays with valid banking information.",
+        "Current public Flex page lists Bengaluru, Delhi, Mumbai, Hyderabad, Jaipur, Pune, Chennai, Kolkata, Ahmedabad and Patna as operating areas."
+      ],
+      "documents": [
+        "PAN card is mandatory",
+        "18+ for two-wheeler/e-bike; 20+ for commercial three-wheeler",
+        "Android 13+, 3GB RAM, camera/flash, GPS and active data SIM",
+        "Vehicle, service-area, tax and payment details; background check"
+      ],
+      "tips": [
+        "Compare the displayed block amount with expected kilometres and return distance before accepting.",
+        "Forfeit at least 45 minutes before start if unavailable to protect standing.",
+        "Protect the five standing metrics: arrival, cancellation, delivery timing, completion and delivered/received status.",
+        "Do not treat blocks as guaranteed full-time income; Amazon labels Flex supplemental/part-time."
+      ],
+      "sources": [
+        {
+          "label": "Official Amazon Flex FAQ",
+          "url": "https://flex.amazon.in/faq"
+        },
+        {
+          "label": "Official Flex Rewards",
+          "url": "https://flex.amazon.in/amazonflexrewards"
+        }
+      ]
+    },
+    {
+      "name": "Rapido Parcel",
+      "offerResearch": {
+        "kit": "₹0 Captain joining fee. A separate gear price is unverified.",
+        "ref": "Partner Manager advertises rewards for referring Captains. Parcel-specific eligibility is unverified.",
+        "url": "https://play.google.com/store/apps/details?id=bike.rapido.obelus"
+      },
+      "type": "Parcel and local delivery",
+      "color": "#f5c400",
+      "mark": "R",
+      "confidence": "Officially verified",
+      "summary": "Flexible captain work for rides and package services, with free onboarding and wallet redemption.",
+      "headline": "Up to ₹150/hour advertised",
+      "vehicle": "Bike; EV rental in selected cities",
+      "bestFor": "Free joining and flexible parcel work",
+      "insurance": "Captain app advertises cover; verify active terms",
+      "bonus": {
+        "advertised": "No fixed national parcel joining bonus",
+        "orderTarget": "Current Captain-app campaign only",
+        "deadline": "Offer-specific",
+        "paymentWhen": "Credited to Captain wallet under offer terms",
+        "firstOrders": "Joining is free; official terms say Rapido Parcel has no commission/service fee PAN India",
+        "whatToSave": "Save the campaign screen and wallet statement; never pay a joining agent"
+      },
+      "money": {
+        "joining": "Free",
+        "payout": "Captain wallet; redeem to bank",
+        "earnings": "Up to ₹150/hour, ₹1,500/day or ₹30,000/month advertised",
+        "tax": "Tax/GST obligations depend on circumstances"
+      },
+      "charges": [
+        "Rapido’s captain page says joining is free.",
+        "Official terms state no commission/service fee to captains for Rapido Parcel PAN India.",
+        "Captain is responsible for a legal vehicle, insurance, PUC and other applicable permits/certificates.",
+        "For other services/locations, app-disclosed fees and taxes may apply."
+      ],
+      "incentives": [
+        "No universal parcel incentive amount is publicly guaranteed.",
+        "Current bonuses and service rates should be checked in the Captain app."
+      ],
+      "benefits": [
+        "No mandatory shift or fixed timing.",
+        "EV rental may be available in selected cities such as Hyderabad and Delhi.",
+        "Automated earnings credit to Captain wallet."
+      ],
+      "documents": [
+        "Driving licence",
+        "Vehicle registration certificate",
+        "Profile photo",
+        "PAN or Aadhaar",
+        "Vehicle insurance, PUC and applicable permits"
+      ],
+      "tips": [
+        "Join only through the official app—there is no joining fee.",
+        "For parcel work, verify direct-customer payment and cash handling before pickup.",
+        "Track empty kilometres and avoid long return trips without matching fare.",
+        "Keep vehicle documents current to avoid deactivation or enforcement costs."
+      ],
+      "sources": [
+        {
+          "label": "Official Captain page",
+          "url": "https://www.rapido.bike/become-a-captain"
+        },
+        {
+          "label": "Official Captain terms",
+          "url": "https://rapido.bike/CaptainTerms?lan=en"
+        }
+      ]
+    },
+    {
+      "name": "Swiggy Instamart",
+      "offerResearch": {
+        "kit": "No Instamart-specific itemised kit price found.",
+        "ref": "The Instamart rider listing confirms referrals. Its advertised joining bonus is a separate offer.",
+        "url": "https://play.google.com/store/apps/details?id=in.swiggy.deliveryapp.instamart"
+      },
+      "type": "Quick commerce",
+      "color": "#fc7a3b",
+      "mark": "i",
+      "confidence": "Official Swiggy framework",
+      "summary": "Quick-commerce deliveries through Swiggy’s unified delivery-partner network.",
+      "headline": "Live city offer shown in Swiggy app",
+      "vehicle": "Bike, e-bike or cycle depending on city",
+      "bestFor": "Swiggy ecosystem and grocery orders",
+      "insurance": "Swiggy partner cover applies subject to eligibility",
+      "bonus": {
+        "advertised": "No fixed national Instamart joining bonus published",
+        "orderTarget": "Shown in the active partner-app campaign",
+        "deadline": "Campaign-specific",
+        "paymentWhen": "Shown in bonus terms",
+        "firstOrders": "Swiggy onboarding fee may be deducted in instalments after joining",
+        "whatToSave": "Capture the exact Instamart target, eligible store/zone and campaign end time"
+      },
+      "money": {
+        "joining": "Swiggy onboarding terms apply",
+        "payout": "Weekly",
+        "earnings": "Order/city/shift dependent",
+        "tax": "See partner app statement"
+      },
+      "charges": [
+        "Swiggy’s public rider page states an onboarding fee around ₹1,500, varying by city and deducted in instalments.",
+        "Fuel, vehicle, maintenance and data costs affect net earnings."
+      ],
+      "incentives": [
+        "Order-based payout with retention and performance incentives.",
+        "Exact Instamart targets and peak additions are shown in the partner app, not fixed publicly."
+      ],
+      "benefits": [
+        "Swiggy partner insurance and support framework applies to active delivery partners.",
+        "Unified app can provide order opportunities across Swiggy offerings."
+      ],
+      "documents": [
+        "Aadhaar or Voter ID",
+        "PAN card",
+        "Driving licence unless using a cycle",
+        "Bank details"
+      ],
+      "tips": [
+        "Compare store wait time and order density across available zones.",
+        "Check whether the target counts only completed orders and when the incentive window closes.",
+        "Do not speed for quick-commerce orders; Swiggy states it does not incentivise faster delivery."
+      ],
+      "sources": [
+        {
+          "label": "Official Swiggy rider page",
+          "url": "https://ride.swiggy.com/"
+        },
+        {
+          "label": "Swiggy partner overview",
+          "url": "https://www.swiggy.com/corporate/delivering-for-everyone/"
+        }
+      ]
+    },
+    {
+      "name": "Flipkart Minutes",
+      "offerResearch": {
+        "kit": "No Minutes-specific itemised kit charge verified.",
+        "ref": "No Minutes-specific rider referral offer verified.",
+        "url": "https://www.flipkartcareers.com/jobslist"
+      },
+      "type": "Quick commerce",
+      "color": "#2878e8",
+      "mark": "F",
+      "confidence": "Limited public data",
+      "summary": "Flipkart quick-commerce delivery; nationwide rider charges and incentive tables are not published publicly.",
+      "headline": "Confirm offer with official hub/vendor",
+      "vehicle": "Hub/vendor-specific",
+      "bestFor": "Applicants with a verified local hub offer",
+      "insurance": "Not nationally disclosed",
+      "bonus": {
+        "advertised": "No verified national joining bonus",
+        "orderTarget": "Hub/vendor-specific; require written proof",
+        "deadline": "Hub/vendor-specific",
+        "paymentWhen": "Must be stated in written offer",
+        "firstOrders": "No verified national first-order commission or deduction table",
+        "whatToSave": "Keep the signed offer, vendor identity, target sheet, receipts and payout statements"
+      },
+      "money": {
+        "joining": "Not publicly disclosed",
+        "payout": "Not publicly disclosed",
+        "earnings": "City/vendor dependent",
+        "tax": "Confirm written terms"
+      },
+      "charges": [
+        "No official nationwide Minutes joining-fee or deduction table was found publicly.",
+        "Ask for a written breakdown of uniform/bag deposits, background-check fees, penalties and vendor deductions before paying anything.",
+        "Flipkart warns candidates about fraudulent job agents."
+      ],
+      "incentives": [
+        "Peak, attendance, per-order and target rewards may be hub/vendor-specific; no current national table is publicly verified."
+      ],
+      "benefits": [
+        "Flipkart publicly describes Wishmaster last-mile roles, but not a universal Minutes benefits package.",
+        "Confirm insurance, paid leave and accident support in writing with the official employing vendor/hub."
+      ],
+      "documents": [
+        "Request the exact official or authorised-vendor checklist",
+        "Typically identity, PAN/bank and vehicle papers may be required",
+        "Do not send OTP, PIN or upfront payment to an unverified recruiter"
+      ],
+      "tips": [
+        "Verify the recruiter through an official Flipkart hub or careers channel.",
+        "Get gross pay, per-order pay, target conditions and every deduction in writing.",
+        "Calculate net hourly pay after waiting time and all vehicle costs."
+      ],
+      "sources": [
+        {
+          "label": "Flipkart careers and fraud warning",
+          "url": "https://www.flipkartcareers.com/jobslist"
+        },
+        {
+          "label": "Official Wishmaster story",
+          "url": "https://stories.flipkart.com/meet-the-wishmasters-powering-siliguri-s-last-mile-on-bicycles"
+        }
+      ]
+    },
+    {
+      "name": "JioMart",
+      "offerResearch": {
+        "kit": "No rider kit price verified; ask the hiring hub for an itemised quote.",
+        "ref": "No rider referral offer verified; ask the hiring hub for written terms.",
+        "url": "https://www.jiomart.com/"
+      },
+      "type": "Grocery delivery",
+      "color": "#1674d1",
+      "mark": "J",
+      "confidence": "Limited public data",
+      "summary": "Grocery and commerce delivery where rider terms are generally provided by the local hub or logistics employer.",
+      "headline": "No public national rider rate card",
+      "vehicle": "Role/vendor-specific",
+      "bestFor": "Applicants with a verified local employment offer",
+      "insurance": "Employee/vendor-specific",
+      "bonus": {
+        "advertised": "No verified national joining bonus",
+        "orderTarget": "Employer/vendor-specific",
+        "deadline": "Must be stated in written offer",
+        "paymentWhen": "Payroll/vendor schedule",
+        "firstOrders": "No public national first-order commission or deduction table",
+        "whatToSave": "Keep the employer name, signed terms, attendance rules and itemised payslips"
+      },
+      "money": {
+        "joining": "Not publicly disclosed",
+        "payout": "Vendor/hub dependent",
+        "earnings": "Role and city dependent",
+        "tax": "Confirm written employment/contract terms"
+      },
+      "charges": [
+        "No official public nationwide rider joining-fee or deduction schedule was located.",
+        "Ask for written details of deposits, uniform/bag costs, penalties, fuel reimbursement and payroll deductions.",
+        "Do not pay personal accounts or share banking PIN/OTP."
+      ],
+      "incentives": [
+        "Attendance, order, peak or referral incentives cannot be verified as a single national JioMart scheme.",
+        "Use only the current written offer from an official hub or authorised logistics provider."
+      ],
+      "benefits": [
+        "Benefits may differ between employee, contractor and third-party logistics roles.",
+        "Confirm accident insurance, ESI/PF eligibility and paid leave before accepting."
+      ],
+      "documents": [
+        "Obtain official role-specific checklist",
+        "Verify employer/vendor identity",
+        "Keep copies of signed terms and all receipts"
+      ],
+      "tips": [
+        "Compare employee and gig/vendor offers on net monthly income, not headline salary.",
+        "Require a payslip or payout statement showing every deduction.",
+        "Avoid any offer that guarantees unusually high pay without written targets and conditions."
+      ],
+      "sources": [
+        {
+          "label": "Official JioMart site",
+          "url": "https://www.jiomart.com/"
+        }
+      ]
+    }
+  ],
+  "lastRun": {
+    "at": "2026-11-23T04:54:37.261Z",
+    "successfulSources": 3,
+    "totalSources": 5
+  },
+  "sourceChecks": [
+    {
+      "id": "swiggy",
+      "platform": "Swiggy",
+      "url": "https://ride.swiggy.com/",
+      "checkedAt": "2026-11-23T04:54:37.261Z",
+      "ok": true,
+      "matched": [],
+      "error": null,
+      "httpStatus": 200,
+      "contentLength": 17675,
+      "matchCount": 0
+    },
+    {
+      "id": "blinkit",
+      "platform": "Blinkit",
+      "url": "https://blinkit.com/pages/delivery",
+      "checkedAt": "2026-11-23T04:54:37.261Z",
+      "ok": false,
+      "matched": [],
+      "error": "HTTP 403",
+      "httpStatus": 403,
+      "contentLength": 564331
+    },
+    {
+      "id": "amazon-flex",
+      "platform": "Amazon Flex / Amazon Now",
+      "url": "https://flex.amazon.in/",
+      "checkedAt": "2026-11-23T04:54:37.261Z",
+      "ok": true,
+      "matched": [
+        {
+          "field": "headline",
+          "value": "Up to ₹140/hour advertised; actual varies"
+        }
+      ],
+      "error": null,
+      "httpStatus": 200,
+      "contentLength": 135306,
+      "matchCount": 1
+    },
+    {
+      "id": "bigbasket",
+      "platform": "BigBasket",
+      "url": "https://riders.bigbasket.com/?nc=MoreInformation",
+      "checkedAt": "2026-11-23T04:54:37.261Z",
+      "ok": true,
+      "matched": [
+        {
+          "field": "headline",
+          "value": "Up to ₹50,000/month advertised"
+        },
+        {
+          "field": "referral",
+          "value": "Referral bonus up to ₹5,000"
+        },
+        {
+          "field": "insurance",
+          "value": "Health insurance up to ₹1 lakh"
+        }
+      ],
+      "error": null,
+      "httpStatus": 200,
+      "contentLength": 38007,
+      "matchCount": 3
+    },
+    {
+      "id": "rapido",
+      "platform": "Rapido Parcel",
+      "url": "https://www.rapido.bike/become-a-captain",
+      "checkedAt": "2026-11-23T04:54:37.261Z",
+      "ok": true,
+      "matched": [
+        {
+          "field": "joining",
+          "value": "Free"
+        },
+        {
+          "field": "headline",
+          "value": "Up to ₹150/hour advertised"
+        },
+        {
+          "field": "payout",
+          "value": "Captain wallet; redeem to bank"
+        }
+      ],
+      "error": null,
+      "httpStatus": 200,
+      "contentLength": 151854,
+      "matchCount": 3
+    }
+  ]
+}

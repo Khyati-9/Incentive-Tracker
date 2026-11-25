@@ -1,0 +1,15 @@
+import fs from 'node:fs/promises';
+import {execFile} from 'node:child_process';
+import {promisify} from 'node:util';
+const exec=promisify(execFile);
+const dir='/Users/khyati/Incentives/outputs/gig_discovery';await fs.mkdir(dir,{recursive:true});
+const queries=['rapido earning vlog','zomato delivery boy vlog','swiggy delivery boy vlog','blinkit delivery partner vlog','zepto delivery boy vlog','porter driver earning vlog','ola uber cab driver vlog','amazon delivery boy India vlog','flipkart delivery boy vlog','swiggy instamart delivery vlog','rapido captain Tamil vlog','swiggy delivery Tamil vlog','zomato delivery Telugu vlog','rapido captain Telugu vlog','rapido Kannada vlog','delivery boy Malayalam vlog','zomato delivery Marathi vlog','swiggy delivery Bengali vlog','uber driver Delhi earning','ola driver Mumbai earning','auto driver India vlog','porter tempo driver vlog','Goldy Singh cab','delivery boy Instagram 100k','bike taxi rider Kolkata vlog','delivery rider Pune vlog','delivery boy Bangalore vlog','rapido captain Hyderabad vlog','delivery boy Chennai vlog','delivery boy Kerala vlog'];
+async function get(url){const {stdout}=await exec('curl',['-sL','--max-time','25',url],{maxBuffer:12e6});let m=stdout.match(/var ytInitialData = (.*?);<\/script>/s);if(!m)throw Error('missing data');return JSON.parse(m[1]);}
+function walk(o,fn){if(!o||typeof o!=='object')return;fn(o);for(const v of Object.values(o))if(typeof v==='object')walk(v,fn)}
+const channels=new Map();
+if(process.argv[2]){queries.splice(0,queries.length,...JSON.parse(await fs.readFile(process.argv[2],'utf8')));try{for(const c of JSON.parse(await fs.readFile(dir+'/checked.json','utf8')))channels.set(c.id,c)}catch{}}
+async function pool(items,fn){let ix=0;await Promise.all(Array.from({length:4},async()=>{while(ix<items.length){const x=items[ix++];try{await fn(x)}catch(e){console.log('ERROR',String(x).slice(0,80),e.message)}}}));}
+await pool(queries,async(q)=>{let d=await get('https://www.youtube.com/results?search_query='+encodeURIComponent(q));walk(d,o=>{let v=o.videoRenderer;if(!v)return;let r=v.ownerText?.runs?.[0],id=r?.navigationEndpoint?.browseEndpoint?.browseId;if(!id)return;let c=channels.get(id)||{id,name:r.text,url:'https://www.youtube.com/channel/'+id,evidence:[]};c.evidence.push({query:q,title:v.title?.runs?.map(x=>x.text).join(''),video:'https://www.youtube.com/watch?v='+v.videoId});channels.set(id,c)});console.log('query',q,channels.size)});
+await fs.writeFile(dir+'/candidates.json',JSON.stringify([...channels.values()],null,2));
+await pool([...channels.values()].filter(c=>!c.countTexts),async(c)=>{let d=await get(c.url+'/about');c.metadata=d.metadata?.channelMetadataRenderer;let texts=[];walk(d,o=>{if(o.subscriberCountText)texts.push(o.subscriberCountText);if(o.content&&typeof o.content==='string'&&/subscriber/i.test(o.content))texts.push(o.content);if(o.subscriberCount)c.rawCount=o.subscriberCount});c.countTexts=texts;console.log('channel',c.name,JSON.stringify(texts).slice(-100));await fs.writeFile(dir+'/'+c.id+'.json',JSON.stringify(c,null,2));});
+await fs.writeFile(dir+'/checked.json',JSON.stringify([...channels.values()],null,2));
