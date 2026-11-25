@@ -1,6 +1,7 @@
 const params=new URLSearchParams(location.search), platformName=params.get('platform'), root=document.querySelector('#detail-root');
 const escapeHtml=value=>String(value).replace(/[&<>'"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[c]));
-const verified=value=>value!=null&&!/(unverif|not publicly|not stated|could not|limited public|no universal|ask the|must be stated|not found|not disclosed|check the|unknown|available in app|vendor-specific|exact campaign)/i.test(String(value))&&(!/(variable|campaign-specific|confirm)/i.test(String(value))||/[₹$€£]\s*[\d,]+|\b\d[\d,.]*\s*(hour|day|month|orders?|points?|lakh)/i.test(String(value)));
+const hasNumber=value=>/[₹$€£]\s*[\d,]+|\b\d[\d,.]*\s*(hour|day|month|orders?|points?|lakh|%)/i.test(String(value));
+const verified=value=>value!=null&&!/(unverif|not publicly|not stated|could not|limited public|no universal|ask the|must be stated|not found|not disclosed|check the|unknown|available in app|vendor-specific|exact campaign)/i.test(String(value))&&(!/(variable|campaign-specific|confirm)/i.test(String(value))||hasNumber(value));
 const items=values=>(values||[]).filter(verified);
 const list=values=>`<ul>${items(values).map(value=>`<li>${escapeHtml(value)}</li>`).join('')}</ul>`;
 const section=(icon,title,values)=>items(values).length?`<section class="section"><div class="section-head"><span class="icon">${icon}</span><h2>${title}</h2></div>${list(values)}</section>`:'';
